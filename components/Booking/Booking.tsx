@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AutoComplete from "./AutoComplete";
 import Cars from "./Cars";
+import Cards from "./Cards";
 
 const Booking = () => {
   //   const screenHeight = window.innerHeight;
@@ -13,6 +14,8 @@ const Booking = () => {
       <div className="border-[1px] p-5 rounded-md" style={{height:innerHeight}}>
         <AutoComplete />
         <Cars/>
+        <Cards/>
+        <button className="w-full p-1 rounded-md mt-4 bg-yellow-400">Book</button>
       </div>
 
     </div>
