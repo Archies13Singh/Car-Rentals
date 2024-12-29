@@ -4,6 +4,4 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 - Tech React , NextJs, TypeScript
 - Clerk for authentication
-
-
-
+- Map Box for location service
